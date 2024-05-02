@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="guess-number.css"/>
+</head>
+<body>
+    <div class="container-fluid bg-container">
+        <div class="row bg-white">
+            <div class="col-12 col-md-6 m-auto bg-white pt-5 pb-3">
+                <img class="bg-image" src="https://easyshiksha.com/online_courses/assets/games/number-guessing/images/banner.png"/>
+                <h1 class="bg-heading">Find out number between 1 to 100</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 bg-container2 pt-4">
+                <h1 class="heading">
+                    Guess the number
+                    <img class="inner-img" src="https://th.bing.com/th/id/OIP.vaXcrGuKQL7zDg_UPdr13QHaRB?rs=1&pid=ImgDetMain">
+                </h1>
+                <input type="text" class="user-input" id="userInput" />
+                <div>
+                    <button class="btn btn-info check-guess" onclick="checkGuess()">
+                        Check
+                        </button>
+                </div>
+                <p class="game-result" id="gameResult"></p>
+            </div>
+        </div>
+    </div>
+    <script src="guess-number.js"></script>
+</body>
+</html>

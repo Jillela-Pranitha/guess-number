@@ -1,0 +1,50 @@
+.bg-container {
+    background-color:rgb(137, 204, 224);
+    height: 100vh;
+  }
+  .bg-image{
+    width: 100%;
+    height: 250px;
+  }
+  .bg-heading{
+    font-size: 40px;
+    font-family: italic;
+    text-align: center;
+    padding-top:7px ;
+  }
+  .bg-container2{
+    text-align: center;
+  }
+  .heading{
+    font-size: 36px;
+    font-family: italic;
+    color: white;
+  }
+  .inner-img{
+    width: 100px;
+    height:100px;
+  }
+  .user-input {
+    text-align: center;
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 500;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  .game-result {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+  }
+  
+  .check-guess {
+    width: 170px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+  }
